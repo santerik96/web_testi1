@@ -1,7 +1,7 @@
 .right-image {
-    float: right; 
-    margin-top: -85px;  
-    margin-left: 20px; 
+    float: right        
+    margin-top: 1000px;     
+    margin-left: 1030px;
 }
 
 a:hover {
@@ -15,7 +15,7 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: #000000;
+    color: #1087ac;
   }
   
   /* mouse over link */

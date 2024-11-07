@@ -2,3 +2,28 @@
     float: right;        
     margin-top: -142px;     
     margin-left: ;
+}
+
+a:hover {
+    background-color: red;
+}
+
+unvisited link 
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #1087ac;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ff0000;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }

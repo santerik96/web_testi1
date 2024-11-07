@@ -4,97 +4,94 @@
 <title>verkkosivu1</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
 <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-  background-color: #59ff00;
-  padding: 30px;
-  text-align: center;
-  font-size: 45px;
-  color: rgb(0, 0, 0);
-}
-
-
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; 
-  background: #ff007b;
-  padding: 20px;
-}
-
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #b99506;
-  height: 300px; 
-}
-
-
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: rgb(215, 0, 0);
-}
-
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
+  * {
+    box-sizing: border-box;
   }
-}
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  header {
+    background-color: #59ff00;
+    padding: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+  }
+
+  nav {
+    float: left;
+    width: 30%;
+    height: 286px;
+    background: #ff007b;
+    padding: 30px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  article {
+    float: left;
+    padding: 10px;
+    width: 70%;
+    background-color: #b99506;
+    height: 286px;
+  }
+
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    background-color: #777;
+    padding: 50px;
+    text-align: center;
+    color: rgb(215, 0, 0);
+  }
+
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
 </style>
 </head>
 <body>
 
-
-<p></p>
-<p></p>
-
 <header>
-  <h2>Cities</h2>
+<h2>Cat</h2>
 </header>
 
 <section>
+  <h2>Linkkejä</h2>
   <nav>
     <ul>
       <li><a href="index.html" >Lancashire Heeler</a></li>
-      <li><a href="second.html">London</a></li>
+      <li><a href="second.html">Cat</a></li>
       <li><a href="third.html">Paris</a></li>
+      <li><a href="https://www.hltv.org/">HLTV</a></li>
+      <li><a href="https://www.youtube.com/">Youtube</a></li>
     </ul>
   </nav>
-  
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
+
+<article>
+  <h1>Cat</h1>
+  <p>Here is a picture of a cat.</p>
+  <img class="right-image" src="images/we-can-do-better-v0-7qa86cqzzwbd1.webp" alt="giisu" width="300" height="182">
+</article>
 </section>
 
 <footer>
-  <p>Footer</p>
+<p>Footer</p>
 </footer>
 
 </body>
