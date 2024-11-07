@@ -1,29 +1,24 @@
 .right-image {
-    float: right        
-    margin-top: 1000px;     
-    margin-left: 1030px;
+  float: right; 
+  margin-top: -99px; 
+  margin-left: 1030px;
 }
 
 a:hover {
-    background-color: red;
+  background-color: red;
 }
 
-unvisited link 
+/* Unvisited link */
 a:link {
-    color: #FF0000;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #1087ac;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #ff0000;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #0000FF;
-  }
+  color: #FF0000;
+}
+
+/* Visited link */
+a:visited {
+  color: #1087ac;
+}
+
+/* Mouse over link */
+a:hover {
+  color: #ff0000;
+}
