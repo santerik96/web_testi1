@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.image-container img {
+    width: 205px;
+    height: auto;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.image-container img:hover {
+    transform: scale(1.25);
+}
+
+.image-container h4 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: rgb(234, 234, 234);
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.larger-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+
+.home header {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+.koirat header {
+    background: url('images/hero-dog.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    padding: 60px 0;
+    text-align: center;
+}
